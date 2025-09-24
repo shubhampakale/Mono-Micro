@@ -1,0 +1,10 @@
+{
+  "name": "micro-root",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm --prefix host start\" \"npm --prefix remote start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
